@@ -1,0 +1,17 @@
+.exp-area {
+    display: flex;
+}
+
+.exp-item {
+    width: 50%;
+    margin: 80px;
+    padding: 50px;
+    border-radius: 8px;
+    text-align: justify;
+    border-left: 5px solid tomato;
+    box-shadow: grey 20px 20px 40px;
+}
+
+#special {
+    border-left: 5px solid orange;
+}
