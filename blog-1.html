@@ -23,6 +23,11 @@
         /*! This file is auto-generated */
         !function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
     </script>
+    <style>
+        .postbox__text {
+            text-align: justify;
+        }
+    </style>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -594,9 +599,8 @@
 
                     <article id="post-10"
                         class="post-10 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-app tag-art tag-course tag-data tag-education tag-videos">
-                        <img width="2560" height="1707"
-                            src="https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/andrew-neel-cckf4TsHAuw-unsplash-scaled.jpg"
-                            class="img-responsive wp-post-image" alt="" decoding="async" fetchpriority="high"
+                        <img width="2560" height="1707" src="images/blog-1.jpg" class="img-responsive wp-post-image"
+                            alt="" decoding="async" fetchpriority="high"
                             srcset="https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/andrew-neel-cckf4TsHAuw-unsplash-scaled.jpg 2560w, https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/andrew-neel-cckf4TsHAuw-unsplash-300x200.jpg 300w, https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/andrew-neel-cckf4TsHAuw-unsplash-1024x683.jpg 1024w, https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/andrew-neel-cckf4TsHAuw-unsplash-768x512.jpg 768w, https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/andrew-neel-cckf4TsHAuw-unsplash-1536x1024.jpg 1536w, https://wp.shsarker.xyz/dora/wp-content/uploads/2023/04/andrew-neel-cckf4TsHAuw-unsplash-2048x1365.jpg 2048w"
                             sizes="(max-width: 2560px) 100vw, 2560px" />
                         <div class="blog-meta">
@@ -662,40 +666,40 @@
                             marketing strategies and website improvements, ultimately driving better results for
                             your business.
                             <br><br>
-                            7. Competitive Advantage
+                            <h3>7. Competitive Advantage</h3>
 
                             Many of your competitors probably already have websites. To remain competitive, you need
                             to have an online presence too. A well-designed website can set you apart from
                             competitors and attract customers looking for information and solutions online. It's a
                             way to demonstrate that you're keeping up with the times and are committed to meeting
                             your customers where they are—on the internet.
-
-                            ### 8. **Customer Convenience**
+                            <br><br>
+                            <h3>8. Customer Convenience</h3>
 
                             Customers appreciate convenience. A website allows them to browse your products, read
                             reviews, and make purchases from the comfort of their homes or on the go. This
                             convenience can lead to increased customer loyalty and repeat business.
-
-                            ### 9. **Scalability**
+                            <br><br>
+                            <h3>9. Scalability</h3>
 
                             As your business grows, your website can grow with it. You can add new pages, products,
                             or features to accommodate changing customer needs. This scalability is crucial for
                             long-term success.
-
-                            ### 10. **Feedback and Improvement**
+                            <br><br>
+                            <h3>10. Feedback and Improvement</h3>
 
                             Your website can also serve as a valuable source of feedback. By monitoring customer
                             reviews, comments, and inquiries, you can gain insights into areas where your business
                             can improve. This feedback loop can be invaluable for enhancing your products, services,
                             and customer experience.
-
+                            <br><br>
                             In conclusion, a website is not just an optional extra for businesses in the digital
                             age; it's a fundamental asset. It offers numerous benefits, from round-the-clock
                             accessibility to global reach, credibility, and cost-effective marketing. If you want
                             your business to thrive and remain competitive in today's fast-paced world, investing in
                             a well-designed and functional website is not just important; it's essential.
                             </p>
-                            <blockquote>
+                            <!-- <blockquote>
                                 <p>These types of conversations are very repetitive, and even when a decision is made,
                                     they don’t feel like time with the team is well spent. There are so many questions
                                     to be answered.<br />
@@ -721,7 +725,7 @@
                                 BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off
                                 he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth
                                 cheesed off don’t get shirty with me arse over tit mush a blinding shot young delinquent
-                                bloke boot blatant.</p>
+                                bloke boot blatant.</p> -->
                         </div>
                         <div class="blog-tags"><span>Post Tags : </span><a href="https://wp.shsarker.xyz/dora/tag/app/"
                                 rel="tag">App</a> <a href="https://wp.shsarker.xyz/dora/tag/art/" rel="tag">Art</a> <a
